@@ -1,7 +1,7 @@
 // ── Avatar ────────────────────────────────────────────────────────────────────
 const AV_COLORS = {
-  LN: "bg-ap-red", SO: "bg-blue-600", MB: "bg-teal-700",
-  PS: "bg-amber-700", TW: "bg-purple-700",
+  AG: "bg-ap-red", PD: "bg-blue-600", JD: "bg-teal-700",
+  NK: "bg-amber-700", DG: "bg-purple-700",
 };
 export function Avatar({ initials, size = "md" }) {
   const sz = size === "sm" ? "w-7 h-7 text-xs" : size === "lg" ? "w-12 h-12 text-lg" : "w-9 h-9 text-sm";
